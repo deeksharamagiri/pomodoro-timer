@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pomodoro Timer</h1>
+        <div class="buttons">
+            <button onclick="setMode('pomodoro')">Pomodoro</button>
+            <button onclick="setMode('shortBreak')">Short Break</button>
+            <button onclick="setMode('longBreak')">Long Break</button>
+        </div>
+        <div id="timer">25:00</div>
+        <div class="progress-container">
+            <div id="progress"></div>
+        </div>
+        <div class="controls">
+            <button id="startPause" onclick="toggleTimer()">Start</button>
+            <button onclick="resetTimer()">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #1e1e1e;
+    color: white;
+    text-align: center;
+    margin: 50px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+#timer {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.buttons button, .controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons button { background: #007BFF; color: white; }
+.controls button { background: #28a745; color: white; }
+.controls button:nth-child(2) { background: #dc3545; }
+
+.progress-container {
+    width: 100%;
+    background: #555;
+    height: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+#progress {
+    height: 100%;
+    width: 100%;
+    background: #28a745;
+    transition: width 1s linear;
+}
