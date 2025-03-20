@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
-    background: #1e1e1e;
-    color: white;
+    font-family: 'Poppins', sans-serif;
+    background: #f4c5c0; 
+    color: #2C3E50;
     text-align: center;
     margin: 50px;
 }
@@ -10,32 +12,56 @@ body {
     max-width: 400px;
     margin: auto;
     padding: 20px;
-    background: #333;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    background: #95e59d; 
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(251, 251, 251, 0.1);
+}
+
+h1 {
+    color: #fafbfb;
+    font-weight: 600;
 }
 
 #timer {
     font-size: 48px;
+    font-weight: bold;
+    color: #fcfcfd;
     margin: 20px 0;
 }
 
 .buttons button, .controls button {
     margin: 5px;
-    padding: 10px 20px;
+    padding: 12px 20px;
     font-size: 18px;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
 }
 
-.buttons button { background: #007BFF; color: white; }
-.controls button { background: #28a745; color: white; }
-.controls button:nth-child(2) { background: #dc3545; }
+.buttons button {
+    background: #232323; 
+    color: #f4c5c0;
+}
+
+.controls button {
+    background: #040404; 
+    color: #f4c5c0;
+}
+
+.controls button:nth-child(2) {
+    background: #040404; 
+    color: #f4c5c0;
+}
+
+.buttons button:hover, .controls button:hover {
+    transform: scale(1.05);
+}
 
 .progress-container {
     width: 100%;
-    background: #555;
+    background: #ECECEC;
     height: 10px;
     border-radius: 5px;
     margin: 10px 0;
@@ -45,6 +71,7 @@ body {
 #progress {
     height: 100%;
     width: 100%;
-    background: #28a745;
+    background: #fcfafa; 
     transition: width 1s linear;
+    border-radius: 5px;
 }
