@@ -13,6 +13,7 @@ A simple and clean Pomodoro Timer built with HTML, CSS, and JavaScript. It's per
 - **CSS** 
 - **JavaScript** 
 
+![Pomodoro Timer](pomodoro.png)
 
 [pomodoro-timer](https://deeksharamagiri.github.io/pomodoro-timer/)
 
